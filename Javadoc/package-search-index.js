@@ -1,0 +1,1 @@
+packageSearchIndex = [{"l":"All Packages","u":"allpackages-index.html"},{"l":"com.example.PruebaTecnicaARVision"},{"l":"com.example.PruebaTecnicaARVision.controller"},{"l":"com.example.PruebaTecnicaARVision.model"},{"l":"com.example.PruebaTecnicaARVision.model.service"},{"l":"com.example.PruebaTecnicaARVision.repository"}];updateSearchResults();

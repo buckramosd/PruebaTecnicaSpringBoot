@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Creado</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+</head>
+<body>
+<div class="container">
+  <h1>Usuario creado con éxito</h1>
+  <table class="table table-striped">
+    <tr>
+      <th>Id</th>
+      <th>Nombre</th>
+      <th>Apellido</th>
+      <th>Edad</th>
+    </tr>
+    <tr>
+      <td th:text="${usuario.id}">ID</td>
+      <td th:text="${usuario.nombre}">Nombre</td>
+      <td th:text="${usuario.apellido}">Apellido</td>
+      <td th:text="${usuario.edad}">Edad</td>
+    </tr>
+  </table>
+  <a class="btn btn-info" href="/crud">Volver</a>
+</div>
+</body>
+</html>

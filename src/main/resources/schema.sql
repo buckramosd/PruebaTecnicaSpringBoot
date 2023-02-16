@@ -1,0 +1,1 @@
+CREATE TABLE usuarios (id INTEGER, nombre varchar(25), apellido varchar(25), edad INTEGER, PRIMARY KEY (id))
